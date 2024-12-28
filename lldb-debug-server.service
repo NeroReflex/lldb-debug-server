@@ -1,0 +1,11 @@
+[Unit]
+Description=lldb debug server
+Wants=network-online.target
+After=network.target network-online.target
+
+[Service]
+ExecStart=lldb-server platform --listen "*:1234" --server
+Restart=always
+
+[Install]
+Alias=display-manager.service
