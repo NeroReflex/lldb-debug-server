@@ -1,6 +1,6 @@
 pkgbase = lldb-debug-server
 	pkgdesc = An LLDB debug server running as root to remotely debug (c,c++,rust) applications
-	pkgver = 0.0.1
+	pkgver = 0.0.2
 	pkgrel = 1
 	arch = x86_64
 	license = GPL2

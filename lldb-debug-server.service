@@ -6,6 +6,7 @@ After=network.target network-online.target
 [Service]
 ExecStart=lldb-server platform --listen "*:1234" --server
 Restart=always
+WorkingDirectory=/var/lldb-debug-server
 
 [Install]
-Alias=display-manager.service
+Alias=multi-user.target
