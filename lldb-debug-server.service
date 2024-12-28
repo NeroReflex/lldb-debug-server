@@ -9,4 +9,4 @@ Restart=always
 WorkingDirectory=/var/lldb-debug-server
 
 [Install]
-Alias=multi-user.target
+WantedBy=multi-user.target
